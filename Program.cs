@@ -13,7 +13,7 @@ namespace FunWithLinqAndEnumerable
 
         static void Main(string[] args)
         {
-            var points = InitPoints().ToArray();
+            var points = InitPoints();
 
             foreach(var point in points)
             {
